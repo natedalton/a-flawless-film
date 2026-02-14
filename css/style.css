@@ -394,6 +394,103 @@ ul {
 }
 
 /* ============================================
+   Social Media Links
+   ============================================ */
+.social-media-links {
+    margin-top: var(--spacing-xl);
+    text-align: center;
+    padding-top: var(--spacing-xl);
+    border-top: 1px solid var(--color-border);
+}
+
+.social-media-links h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-white);
+    margin-bottom: var(--spacing-md);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: var(--transition);
+    min-width: 120px;
+    border: none;
+}
+
+.social-link svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+/* Social Media Brand Colors */
+.social-imdb {
+    background: linear-gradient(135deg, #f5c518 0%, #e5b015 100%);
+    color: #000;
+}
+
+.social-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-tiktok {
+    background: #000;
+    border: 2px solid #25f4ee;
+    position: relative;
+}
+
+.social-tiktok::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: var(--border-radius);
+    background: linear-gradient(90deg, #25f4ee 50%, #fe2c55 50%);
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.social-facebook {
+    background: #1877f2;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.social-imdb:hover {
+    box-shadow: 0 6px 20px rgba(245, 197, 24, 0.5);
+}
+
+.social-instagram:hover {
+    filter: brightness(1.1);
+}
+
+.social-facebook:hover {
+    background: #0d63d3;
+}
+
+.social-tiktok:hover {
+    box-shadow: 0 6px 20px rgba(37, 244, 238, 0.4);
+}
+
+/* ============================================
    Services Section
    ============================================ */
 .services {

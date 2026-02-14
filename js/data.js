@@ -10,7 +10,7 @@ const films = [
         description: "A powerful BET+ Original Drama following a once-promising singer whose bright future is dimmed by the harsh realities of the music industry. A decade later, despite struggling with addiction and depression, she rises up to overcome her challenges. Premieres March 27, 2025 on BET+.",
         poster: "https://m.media-amazon.com/images/M/MV5BOGFjYWYzNzQtMTU1My00N2RhLTkxZWQtNTEyOTE4ZjgyZDY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         streaming: [
-            { name: "BET+", url: "https://www.bet.plus/" }
+            { name: "BET+", url: "https://www.bet.plus/movie/soul-of-a-sister" }
         ],
         imdb: "https://www.imdb.com/title/tt23777476/"
     },
@@ -23,7 +23,8 @@ const films = [
         poster: "https://m.media-amazon.com/images/M/MV5BNTEzMTU4ZDEtZDQ2ZC00MTIyLTkyNjctOTQ4ZGU2NzY1Zjk4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         streaming: [
             { name: "Tubi", url: "https://tubitv.com/movies/100050803/haunted-house-of-pancakes" },
-            { name: "YouTube", url: "https://www.youtube.com/watch?v=VrgwhFfXYjI" }
+            { name: "YouTube", url: "https://www.youtube.com/watch?v=VrgwhFfXYjI" },
+            { name: "Website", url: "https://hauntedhouseofpancakes.com/" }
         ],
         imdb: "https://www.imdb.com/title/tt30274534/"
     },
@@ -36,7 +37,6 @@ const films = [
         poster: "https://m.media-amazon.com/images/M/MV5BY2JhZjg1MmYtZmZjZi00MzlmLTkwODgtYTQ4Y2MzMTE4YjExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         streaming: [
             { name: "Tubi", url: "https://tubitv.com/movies/705483/shady-grove" },
-            { name: "YouTube", url: "https://www.youtube.com/watch?v=7rZU9xdZiHg" },
             { name: "Prime Video", url: "https://www.primevideo.com/detail/Shady-Grove/0LBD2VD84BA01MFEYHG702S5ZR" }
         ],
         imdb: "https://www.imdb.com/title/tt15262652/"
