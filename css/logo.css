@@ -1,0 +1,14 @@
+/* ============================================
+   Logo Image Styling
+   ============================================ */
+.logo-link {
+    display: none;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    margin-right: var(--spacing-lg);
+}
