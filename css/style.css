@@ -240,6 +240,15 @@ ul {
     text-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
 }
 
+.hero-logo {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto var(--spacing-md);
+    display: block;
+    filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.6));
+}
+
 .hero-subtitle {
     font-size: clamp(1.2rem, 3vw, 1.8rem);
     color: var(--color-accent);
